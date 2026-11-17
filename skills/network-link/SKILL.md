@@ -26,7 +26,7 @@ Read `Documents\ClaudeSetup\settings.json`. If `modules.network_link` is not tru
 3. Key with a passphrase (safer; Claude needs the ssh-agent loaded once per login) or without (simpler; anyone who gets the key file gets in)? Recommend the passphrase.
 
 ## Build the guide
-Make the tick-box guide from `guide/GUIDE_TEMPLATE.html` (see "Guides" below), with these stages. Put each command in a copy chip. After EVERY step add a CHECK line with the exact thing the user should see.
+Make the tick-box guide from `guide/GUIDE_TEMPLATE.html.txt` (see "Guides" below), with these stages. Put each command in a copy chip. After EVERY step add a CHECK line with the exact thing the user should see.
 
 **Stage 1: on the Host (run PowerShell as administrator; user does this)**
 1. Install: `Add-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0`. CHECK: `Get-WindowsCapability -Online | Where-Object Name -like 'OpenSSH.Server*'` shows Installed.
@@ -64,4 +64,4 @@ On request: run the step 8 check; confirm `ssh` exists on the Client. If somethi
 Private keys and passphrases never go in chat, guides or files shared with Claude. Never expose the Host to the internet. Never run admin or firewall commands for the user.
 
 ## Guides for steps the user must do
-Copy `guide/GUIDE_TEMPLATE.html` to a new file in the user's Documents folder, change only the GUIDE object near the bottom, and follow the instructions at the top of the template. Make it extremely detailed: about five small steps for each real step, plain English, the reason in brackets, a copy chip for every command, and a CHECK for every step. Keep the chat reply short and point to the guide.
+Copy `guide/GUIDE_TEMPLATE.html.txt` to a NEW file named like `My_Guide.html` in the user's Documents folder (the template is stored as .txt on purpose), change only the GUIDE object near the bottom, and follow the instructions at the top of the template. Make it extremely detailed: about five small steps for each real step, plain English, the reason in brackets, a copy chip for every command, and a CHECK for every step. Keep the chat reply short and point to the guide.
