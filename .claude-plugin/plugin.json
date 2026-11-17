@@ -18,5 +18,6 @@
     "openssh",
     "wizard"
   ],
-  "icon": ".claude-plugin/icon.png"
+  "icon": ".claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://github.com/AcidSecs/claude-network-link#data-handling"
 }

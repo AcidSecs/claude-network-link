@@ -20,3 +20,7 @@ Two Windows 10 or 11 PCs on the same network, an administrator account on the se
 Nothing leaves your network. Private keys and passphrases never go in chat or in files shared with Claude.
 
 Switch it on or off with claude-setup-wizard.
+
+## Data handling
+
+It only guides you through SSH setup between your own PCs. Keys and settings stay on your PCs. It reads no personal data. Nothing is sent to the authors of this plugin. We run no server and receive no data, so nothing is retained by us. The plugin sends nothing to any outside service. Everything it makes stays on your own PC or in your own Google Drive and Claude account, and you can delete it any time.
