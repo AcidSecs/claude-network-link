@@ -1,6 +1,7 @@
 # Network Link for Claude (vn-network-link)
 
 Created by Soroosh Hedayat
+
 Designed in Collaboration by: VectorNine Systems Inc. & Acid Secs Productions Inc.
 
 Have a second PC at home and want Claude to work on it? This plugin makes a very detailed tick-box guide that links two Windows PCs on the same home network using SSH, a secure remote door. It uses keys instead of passwords and works on your local network only. After every step there is a check, so you know it worked before you go on.

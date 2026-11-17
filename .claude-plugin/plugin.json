@@ -3,9 +3,20 @@
   "displayName": "Network Link for Claude",
   "version": "0.1.0",
   "description": "A step-by-step, tick-box wizard that links two Windows PCs on your home network with SSH, using keys instead of passwords and local network only, with a check after every step. You do the admin and security steps yourself.",
-  "author": { "name": "VectorNine Systems Inc. & Acid Secs Productions Inc." },
+  "author": {
+    "name": "VectorNine Systems Inc. & Acid Secs Productions Inc."
+  },
   "homepage": "https://github.com/AcidSecs/claude-network-link",
   "repository": "https://github.com/AcidSecs/claude-network-link",
   "license": "SEE LICENSE IN LICENSE",
-  "keywords": ["ssh", "network", "second pc", "laptop", "remote", "openssh", "wizard"]
+  "keywords": [
+    "ssh",
+    "network",
+    "second pc",
+    "laptop",
+    "remote",
+    "openssh",
+    "wizard"
+  ],
+  "icon": ".claude-plugin/icon.png"
 }
